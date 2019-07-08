@@ -1,0 +1,33 @@
+{
+  "name": "tymfrontiers-cdn/php-file-reader",
+  "description": "PHP File Reader Trait",
+  "keywords": ["php", "file","reader","trait","tym","frontiers"],
+  "homepage": "https://github.com/tymfrontiers-cdn/php-file-reader",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Sir Louis",
+          "email": "me@sirlouis.io",
+          "homepage": "https://sirlouis.io",
+          "role": "developer"
+      },
+      {
+          "name": "Tym Frontiers Ltd",
+          "email": "git@tymfrontiers.com",
+          "homepage": "https://tymfrontiers.com",
+          "role": "developer"
+      }
+  ],
+  "require": {
+    "php" : ">=5.3",
+    "khanamiryan/qrcode-detector-decoder": ">=1.0@stable",
+    "phpoffice/phpspreadsheet" : ">=1.0@stable"
+  },
+  "require-dev": {},
+  "autoload": {
+      "psr-4": {
+          "TymFrontiers\\Helper\\": "src/"
+      }
+  }
+}
