@@ -20,7 +20,6 @@
       }
   ],
   "require": {
-    "php" : ">=5.3",
     "khanamiryan/qrcode-detector-decoder": ">=1.0@stable",
     "phpoffice/phpspreadsheet" : ">=1.0@stable",
     "michelf/php-markdown": ">=1.8@stable"
